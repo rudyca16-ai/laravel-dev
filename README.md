@@ -52,8 +52,8 @@ laravel_desafio=# select * from students;
 
 ## Dump SQL
 Crear el archivo dump sql con el siguiente comando:
-1- docker exec -t laravel_db pg_dump -U laravel -d laravel_desafio -F p > dump.sql
-El archivo se guarda en la raíz del proyecto con el nombre de dump.sql
+1. docker exec -t laravel_db pg_dump -U laravel -d laravel_desafio -F p > dump.sql
+// El archivo se guarda en la raíz del proyecto con el nombre de dump.sql
 
 ## Testing
 1. Los archivos se encuentran en laravel-dev -> test -> Feature
