@@ -63,6 +63,8 @@ Crear el archivo dump sql con el siguiente comando:
 
 
 ## APIs
+1. Las rutas se encuentran en laravel-dev -> routes -> api.php
+
 | Método | Endpoint           | Descripción             |
 | ------ | ------------------ | ----------------------- |
 | POST   | /api/auth/register | Registrar nuevo usuario |
